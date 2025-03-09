@@ -12,35 +12,32 @@ export const products: Product[] = [
   {
     id: "1",
     name: "Ultra HD 4K Smart TV",
-    price: 799.99,
-    image: "https://images.unsplash.com/photo-1593784991095-a205069533cd?auto=format&fit=crop&q=80",
-    category: "TVs & Displays",
-    description: "Experience stunning visuals with this 55-inch 4K Ultra HD Smart TV. Features HDR technology for vibrant colors and deep blacks.",
-    features: [
-      "55-inch 4K Ultra HD display",
-      "Smart TV functionality with built-in streaming apps",
-      "HDR technology for enhanced color and contrast",
-      "Multiple HDMI and USB ports",
-      "Voice control compatibility"
-    ]
+    price: 79999,
+    image: "https://images.unsplash.com/photo-1601944179066-29786cb9d32a?q=80&w=1000",
+    category: "TVs",
+    description: "55-inch 4K Ultra HD Smart LED TV with HDR and built-in streaming apps.",
+    features: ["4K Resolution", "Smart TV Features", "HDR Support", "Voice Control"],
   },
   {
     id: "2",
-    name: "Pro Wireless Headphones",
-    price: 249.99,
-    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80",
+    name: "Wireless Noise-Canceling Headphones",
+    price: 24999,
+    image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=1000",
     category: "Audio",
-    description: "Premium wireless headphones with active noise cancellation, delivering immersive sound quality and all-day comfort.",
-    features: [
-      "Active noise cancellation",
-      "40-hour battery life",
-      "Premium audio drivers",
-      "Comfortable over-ear design",
-      "Built-in microphone for calls"
-    ]
+    description: "Premium wireless headphones with active noise cancellation and 30-hour battery life.",
+    features: ["Active Noise Cancellation", "30-Hour Battery", "Bluetooth 5.0", "Touch Controls"],
   },
   {
     id: "3",
+    name: "Smart Home Hub",
+    price: 14999,
+    image: "https://images.unsplash.com/photo-1558002038-1055e2e89a5c?q=80&w=1000",
+    category: "Smart Home",
+    description: "Central smart home controller with voice assistant and home automation features.",
+    features: ["Voice Control", "Home Automation", "Multi-Device Support", "Energy Monitoring"],
+  },
+  {
+    id: "4",
     name: "Ultra-Slim Laptop Pro",
     price: 1299.99,
     image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&q=80",
@@ -55,7 +52,7 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "4",
+    id: "5",
     name: "Smart Watch Series 5",
     price: 349.99,
     image: "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&q=80",
@@ -70,7 +67,7 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "5",
+    id: "6",
     name: "Professional DSLR Camera",
     price: 1499.99,
     image: "https://images.unsplash.com/photo-1452780212940-6f5c0d14d848?auto=format&fit=crop&q=80",
@@ -85,7 +82,7 @@ export const products: Product[] = [
     ]
   },
   {
-    id: "6",
+    id: "7",
     name: "Wireless Gaming Mouse",
     price: 79.99,
     image: "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&q=80",
@@ -97,21 +94,6 @@ export const products: Product[] = [
       "RGB lighting effects",
       "70-hour battery life",
       "Lightweight ergonomic design"
-    ]
-  },
-  {
-    id: "7",
-    name: "Smart Home Hub",
-    price: 129.99,
-    image: "https://images.unsplash.com/photo-1558389186-438424b00a6b?auto=format&fit=crop&q=80",
-    category: "Smart Home",
-    description: "Central hub for controlling all your smart home devices with voice commands and automation features.",
-    features: [
-      "Compatible with major smart home ecosystems",
-      "Voice control capability",
-      "Automation scheduling",
-      "Energy monitoring",
-      "Intuitive smartphone app"
     ]
   },
   {

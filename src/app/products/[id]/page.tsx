@@ -15,12 +15,13 @@ interface ProductPageProps {
 }
 
 export async function generateMetadata({ params }: ProductPageProps) {
-  const product = products.find((p) => p.id === params.id);
+  const id = await Promise.resolve(params.id);
+  const product = products.find((p) => p.id === id);
   
   if (!product) {
     return {
-      title: "Product Not Found - TechStore",
-      description: "The requested product could not be found",
+      title: "Product Not Found",
+      description: "The requested product could not be found.",
     };
   }
   
@@ -30,8 +31,9 @@ export async function generateMetadata({ params }: ProductPageProps) {
   };
 }
 
-export default function ProductPage({ params }: ProductPageProps) {
-  const product = products.find((p) => p.id === params.id);
+export default async function ProductPage({ params }: ProductPageProps) {
+  const id = await Promise.resolve(params.id);
+  const product = products.find((p) => p.id === id);
   
   if (!product) {
     notFound();
