@@ -31,7 +31,7 @@ A responsive e-commerce website for tech products built with Next.js 15 and Tail
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/ecom-website.git
+git clone https://github.com/Bhavanarisatwik/ecom-website.git
 cd ecom-website
 ```
 
